@@ -27,5 +27,4 @@ For more information see <https://arc42.org/> and <https://github.com/arc42>
 
 | Name | Description | Size |
 | ---- | ----------- | ---- |
-| latest | - | [![](https://img.shields.io/microbadger/image-size/adorsys/arc42-tools.svg?style=flat-square)](https://microbadger.com/images/adorsys/arc42-tools) |
-
+| latest | - | [![](https://images.microbadger.com/badges/image/adorsys/arc42-tools.svg)](https://microbadger.com/images/adorsys/arc42-tools) |
