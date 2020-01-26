@@ -1,0 +1,2 @@
+#!/bin/bash
+exec java -Djava.awt.headless=true -jar /usr/local/share/plantuml/plantuml.jar "$@"
