@@ -17,6 +17,7 @@ jobs:
           - DOCKER_IMAGE: adorsys/arc42-tools
             TAG: latest
             DIR: .
+            SNAPSHOT: 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
