@@ -1,0 +1,6 @@
+.github/workflows/ci.yaml:
+  env:
+    - DOCKER_IMAGE: adorsys/arc42-tools
+      TAG: latest
+      DIR: .
+      SNAPSHOT: 'true'
