@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 LABEL maintainer="adorsys GmbH & Co. KG" \
       vendor="adorsys GmbH & Co. KG" \
@@ -14,8 +14,8 @@ LABEL maintainer="adorsys GmbH & Co. KG" \
       org.label-schema.license="" \
       org.label-schema.build-date=""
 
-ARG PANDOC_VERSION=2.9.1
-ARG PLANTUML_VERSION=1.2020.0
+ARG PANDOC_VERSION=2.9.2.1
+ARG PLANTUML_VERSION=1.2020.14
 
 ENV TZ=Europe/Berlin \
     JAVA_OPTS="-Xmx128m" \
